@@ -1,0 +1,2 @@
+id/rdev/notespenjualan/BuildConfig.java
+ id.rdev.notespenjualan.BuildConfig

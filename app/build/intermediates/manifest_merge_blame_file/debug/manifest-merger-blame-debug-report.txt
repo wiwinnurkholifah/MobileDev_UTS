@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.rdev.notespenjualan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:8:5-35:19
+14        android:allowBackup="false"
+14-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:9:9-36
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3f0e982339ff24e9e5cec28c56d30078\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:14:9-40
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:15:9-44
+24        <activity
+24-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:17:9-27:20
+25            android:name="id.rdev.notespenjualan.activity.SplashScreenActivity"
+25-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:17:19-64
+26            android:screenOrientation="portrait"
+26-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:18:13-49
+27            android:theme="@style/AppThemeSplashScreen" >
+27-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:19:13-56
+28            <intent-filter>
+28-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:21:13-26:29
+29                <action android:name="android.intent.action.VIEW" />
+29-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:22:17-69
+29-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:22:25-66
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:23:17-69
+30-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:25:17-77
+32-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="id.rdev.notespenjualan.activity.report.ReportActivity" />
+35-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:28:9-68
+35-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:28:19-65
+36        <activity android:name="id.rdev.notespenjualan.activity.penjualan.PenjualanBarang" />
+36-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:29:9-72
+36-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:29:19-69
+37        <activity android:name="id.rdev.notespenjualan.activity.data_barang.DataBarangActivity" />
+37-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:30:9-77
+37-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:30:19-74
+38        <activity android:name="id.rdev.notespenjualan.activity.register.RegisterActivity" />
+38-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:31:9-72
+38-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:31:19-69
+39        <activity android:name="id.rdev.notespenjualan.activity.data_barang._add.AddBarangActivity" />
+39-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:32:9-81
+39-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:32:19-78
+40        <activity android:name="id.rdev.notespenjualan.activity.login.LoginActivity" />
+40-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:33:9-65
+40-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:33:19-63
+41        <activity android:name="id.rdev.notespenjualan.activity._main.MainActivity" />
+41-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:34:9-65
+41-->C:\Users\DELL\Music\NotesPenjualan\app\src\main\AndroidManifest.xml:34:19-62
+42
+43        <provider
+43-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+44            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+45            android:authorities="id.rdev.notespenjualan.lifecycle-process"
+45-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+46            android:exported="false"
+46-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+47            android:multiprocess="true" />
+47-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+48    </application>
+49
+50</manifest>
